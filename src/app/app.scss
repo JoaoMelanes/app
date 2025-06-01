@@ -1,0 +1,82 @@
+header{
+    padding: 1rem 0;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#box-logo{
+    margin-left: 10px;
+    
+}
+#logo{
+    background-image: url("./assets/images/logo.png");
+    height: 70px;
+    width: 70px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+    transition: 1s;
+}
+
+#logo:hover{
+    transform: rotate3d(0, 1, 0, 360deg);
+    box-shadow:0px 0px 8px rgb(189, 189, 60);
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+    color: yellow;
+    border: 2px solid yellow;
+    padding: 5px 10px;
+    border-radius: 8px;
+    transition: 0.5s;
+}
+
+a:hover{
+    background-color: yellow;
+    padding: 7px 12px;
+    box-shadow: 3px 3px 8px rgb(189, 189, 60);
+    color: rgb(0, 0, 0);
+}
+
+main{
+    height: 80%;
+    width: 100%;
+    background-color: rgb(23, 23, 23);
+}
+.flier{
+    height: 400px;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo{
+    position: absolute;
+    top: 30%;
+    left: 38%;
+    font-size: 50px;
+    font-weight: bold;
+    text-shadow: 0px 0px 20px yellow;
+}
+
+footer{
+    color: yellow;
+    text-align: center;
+    background-color: black;
+    height: 300px;
+}
